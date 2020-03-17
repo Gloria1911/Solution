@@ -24,6 +24,10 @@ namespace WebApplication1.Controllers
         {
             return "value";
         }
+        public string GetSum(int aint b)
+        {
+            return a+b;
+        }
 
         // POST api/<controller>
         [HttpPost]
